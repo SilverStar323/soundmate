@@ -7,15 +7,27 @@
   <title>SoundMate Learning Tailwind With Examples</title>
   <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="./style.css">
-  
+
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="./tailwind.config.js"></script>
 </head>
 
-<body>
-  <h1 class="bg-yellow-500 hover:bg-red-500 hover:cursor-pointer hover:text-white m-2 py-7 text-center  border-2 border-indigo-500 round-md border-dashed text-3xl">Learning Tailwind</h1>
-  <p class="md:max-lg:bg-red-50">Hello World!</p>
-  <p class="bg-logo-200 dark:bg-logo-800 dark:text-white">Learning <span class="text-3xl text-red-700">tailwindcss</span> with Shubham!</p>
+<body class="max-w-7xl m-auto">
+  <header class="h-16 border-b">
+    <div class="flex justify-between items-center mx-2 py-2">
+      <div class="flex items-center">
+        <img class="w-12" src="./images/logo.png" alt="">
+        <div class="ml-2 text-2xl">Soundmate</div>
+      </div>
+      <nav>
+        <span class="p-3 text-lg hover:bg-gray-300 hover:cursor-pointer hover:rounded">Home</span>
+        <span class="p-3 text-lg hover:bg-gray-300 hover:cursor-pointer hover:rounded">Products</span>
+        <span class="p-3 text-lg hover:bg-gray-300 hover:cursor-pointer hover:rounded">About us</span>
+      </nav>
+    </div>
+  </header>
+  <main></main>
+  <footer></footer>
 </body>
 
 </html>
